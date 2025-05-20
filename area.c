@@ -2,7 +2,7 @@
 
 int main(){
 	int b,h;
-	int result;
+	float result;
 
 	printf("Enter Breadth: ");
 	scanf("%d",&b);
@@ -12,7 +12,7 @@ int main(){
 	
 	result = 0.5*b*h;
 	
-	printf("Area of Traiangle is:  %d",result);
+	printf("Area of Traiangle is:  %f",result);
 	
 	return 0;
 }    
